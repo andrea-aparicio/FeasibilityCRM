@@ -25,19 +25,19 @@ Folders and files:
 How to generate the data for every result:
 
 1. Larger and more connected communities have a smaller chance of coexistence
-	•	script: run-CR-RandomComp_connectance.R with option: mode = "MCRM_connectance" and mode = "random_competition"
+	•	Data: run-CR-RandomComp_connectance.R with option: mode = "MCRM_connectance" and mode = "random_competition"
 
 2. The likelihood of feasibility is inversely proportional to the system’s complexity
-	•	Data. script: run-CR-RandomComp_connectance.R with option: mode = "MCRM_connectance"
+	•	Data: script: run-CR-RandomComp_connectance.R with option: mode = "MCRM_connectance"
 	•	Power law: script Figures_volume.R, function: make_fitted_data
 
 3. The resources growth dynamics determine the complexity-feasibility relationship when n < m
-	•	run-CR-RandomComp_connectance.R with option: script: with mode = "n<m"
+	•	Data: run-CR-RandomComp_connectance.R with option: script: with mode = "n<m"
 
 4. Increased nestedness leads to a loss of feasibility
-	•	script: run-CR-otherSims.R, function: iterate_nest
+	•	Data: run-CR-otherSims.R, function: iterate_nest
 5. Niche overlap leads to loss of feasibility
-	•	script: run-CR-RandomComp_connectance.R with option: mode = "MCRM_connectance"
+	•	Data: run-CR-RandomComp_connectance.R with option: mode = "MCRM_connectance"
 
 
 
